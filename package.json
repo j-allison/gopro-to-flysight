@@ -22,8 +22,7 @@
     "prettier": "^1.17.1"
   },
   "scripts": {
-    "dev": "yarn build && yarn parse",
     "build": "babel --presets es2015 src/index.js -o build/main.bundle.js",
-    "parse": "node build/main.bundle.js"
+    "parse": "yarn build && node build/main.bundle.js"
   }
 }

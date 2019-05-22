@@ -6,7 +6,6 @@ Turn gopro telemetry data to the same CSV format as a flysight unit
 
 ```
 yarn
-yarn build
 yarn parse /Users/jallison/Desktop/GH010928.MP4
 ```
 
